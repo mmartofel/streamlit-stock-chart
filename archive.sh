@@ -1,4 +1,7 @@
 # This archive is to provide to quay.io build system
 
-zip -r archive.zip ./*.py ./requirements.txt
+zip -r archive.zip \
+       ./*.py \
+       ./requirements.txt \
+       ./Dockerfile 
 
